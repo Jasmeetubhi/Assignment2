@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Static Website</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left; 
+  width: 20%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #72bcd4;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  float: left;
+  padding: 30px;
+  width: 60%;
+  background-color: #add8e6;
+  height: 600px; /* only for demonstration, should be removed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*aside*/
+aside {
+  float: right;
+  width: 20%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #d4ebf2;
+  padding: 20px;
+}
+
+
+/* Style the footer */
+footer {
+  background-color: #000080;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, main, aside {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="D:\cat.jpg" alt="cat" width = "1460" height ="400">
+</header>
+
+<section>
+  <nav>
+    <h1 style="font-family:Helvetica"; "font-size:150%" >Navigation Menu</h1>	
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="file:///D:/About%20Me.html">About Me</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2 style="font-family:Helvetica"; "font-size:150%" >Hello World!</h2>
+    <p> I am Jasmeet. I am doing Masters in Computer Science and this is my first semester here in Pace University. Subjects I took this semester are: </p> 
+    <ul>
+    <li> Algorithm and Computing theory </li>
+    <li> Internet Computing </li>
+    <li> Pattern Recognition </li> 
+    </ul>
+    <p2> My favourite class is Internet Computing because we get different and interesting assignments work which always help me to learn something new. </p2>
+
+    <video style="display:block; margin: 0 auto;" width="800" height="300" controls>
+         <source src="https://storage.coverr.co/videos/Dog-in-Farm?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTcwMzM1MzM3fQ.6K67vzSLYAAsdwES4Uo2gu8abtwQ336hOXeMDV0pmUc" type="video/mp4">
+         Your browser does not support the video tag.
+    </video>
+
+
+  </main>
+
+</section>
+
+<aside>
+      <h1 style="font-family:Helvetica"; "font-size:150%" >Website links</h1>
+      <ul>	
+      <li><a href="https://www.google.com/">Google</a></li>
+      <li><a href="https://www.youtube.com/">YouTube</a></li>
+      <li><a href="https://www.facebook.com/">Facebook</a></li>
+      <li><a href="https://www.twitter.com/">Twitter</a></li>
+      <li><a href="https://www.bbc.com/news/world.com/">World News</a></li>
+      </ul>
+</aside>
+
+<footer>
+  <h1> </h1>
+  <p>Copyright © HelloWord.com</p>
+</footer>
+
+</body>
+</html>
